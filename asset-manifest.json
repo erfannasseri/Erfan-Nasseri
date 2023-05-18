@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/erfan-nasseri/static/css/main.a7453e8c.css",
-    "main.js": "/erfan-nasseri/static/js/main.e87fac57.js",
+    "main.css": "/erfan-nasseri/static/css/main.0b29c4fe.css",
+    "main.js": "/erfan-nasseri/static/js/main.b42c05c2.js",
     "static/js/27.0e68d143.chunk.js": "/erfan-nasseri/static/js/27.0e68d143.chunk.js",
     "static/media/erfan1.jpg": "/erfan-nasseri/static/media/erfan1.28a6e54328fa622578b9.jpg",
     "static/media/erfan2.jpg": "/erfan-nasseri/static/media/erfan2.85e5e0ffa02dd93fddb4.jpg",
     "static/media/video.mp4": "/erfan-nasseri/static/media/video.d225edd6d7d4d4a8f5b7.mp4",
+    "static/media/ErfanNasseri(EN).pdf": "/erfan-nasseri/static/media/ErfanNasseri(EN).9816c17be5cda1a6486f.pdf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/erfan-nasseri/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/erfan3.jpg": "/erfan-nasseri/static/media/erfan3.ae86537c84e48271e468.jpg",
     "static/media/iwi.png": "/erfan-nasseri/static/media/iwi.0462d3b8edcb99b35c25.png",
@@ -15,12 +16,14 @@
     "static/media/fontawesome-webfont.eot": "/erfan-nasseri/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/erfan-nasseri/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/cham.jpg": "/erfan-nasseri/static/media/cham.1b42231ec5741db4b2a5.jpg",
+    "static/media/ErfanNasseri(FA).pdf": "/erfan-nasseri/static/media/ErfanNasseri(FA).415edacb713a13d6473e.pdf",
     "static/media/404.jpg": "/erfan-nasseri/static/media/404.19e523cdb4d4a12db938.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/erfan-nasseri/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/erfan-nasseri/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/rtl.jpg": "/erfan-nasseri/static/media/rtl.fc623d3befe9a7acb1ac.jpg",
     "static/media/dark.jpg": "/erfan-nasseri/static/media/dark.c1cda9e0d5088e62fa77.jpg",
-    "static/media/cv.webp": "/erfan-nasseri/static/media/cv.174d8bc4469f8aa7c5fa.webp",
+    "static/media/Logo.svg": "/erfan-nasseri/static/media/Logo.0bd3fa83e40259a81c6fc87764715ee6.svg",
+    "static/media/LogoLight.svg": "/erfan-nasseri/static/media/LogoLight.510588491b1979fa64eca26f977aea47.svg",
     "static/media/slick.svg": "/erfan-nasseri/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/erfan-nasseri/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/erfan-nasseri/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -30,7 +33,7 @@
     "index.html": "/erfan-nasseri/index.html"
   },
   "entrypoints": [
-    "static/css/main.a7453e8c.css",
-    "static/js/main.e87fac57.js"
+    "static/css/main.0b29c4fe.css",
+    "static/js/main.b42c05c2.js"
   ]
 }
