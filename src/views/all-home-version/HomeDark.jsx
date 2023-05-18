@@ -8,6 +8,7 @@ import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import SwitchDark from "../../components/switch/SwitchDark";
+import LogoD from "../../assets/Logo.svg"
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -22,7 +23,7 @@ const HomeDark = () => {
 
   return (
     <div className="yellow">
-      <SwitchDark />
+    { /* <SwitchDark />*/}
       {/* End Switcher */}
       <Tabs>
         <div className="header">
@@ -102,9 +103,10 @@ const HomeDark = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="row">
+              <div className="col" style={{justifyContent:'center' , alignItems:"center"}}>
                 {/*  Left Side Starts */}
-                <div className="col-12 col-lg-4">
+                <div className="row-12 row-lg-4">
+
                   <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
                     Don't be shy !
                   </h3>
@@ -116,15 +118,20 @@ const HomeDark = () => {
                   <Address />
                   {/* End Address */}
 
-                  <Social />
+                  <Social/>
                   {/* End Social */}
                 </div>
-                {/* Left Side Ends */}
+ 
+                {/* Left Side Ends 
+                
+                <Contact />
+                
+              */}
 
-                {/*  Contact Form Starts  */}
-                <div className="col-12 col-lg-8">
-                  <Contact />
-                </div>
+                {/*
+                Contact Form Starts  */}
+                
+
                 {/*  Contact Form Ends */}
               </div>
             </div>

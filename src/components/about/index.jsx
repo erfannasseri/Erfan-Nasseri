@@ -4,7 +4,8 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import cv from "../../assets/img/cv.webp";
+import cv from "../../assets/cvPDF/ErfanNasseri(EN).pdf";
+import cv2 from "../../assets/cvPDF/ErfanNasseri(FA).pdf";
 import heroImgMobile from "../../assets/img/hero/erfan3.jpg";
 
 const index = () => {
@@ -39,7 +40,14 @@ const index = () => {
 
               <div className="col-12 mt-1">
                 <a className="button" href={cv} download>
-                  <span className="button-text">Download CV</span>
+                  <span className="button-text">Download CV ( English )</span>
+                  <span className="button-icon fa fa-download"></span>
+                </a>
+
+              </div>
+              <div className="col-12 mt-1" >
+                <a className="button" href={cv2} download>
+                  <span className="button-text">Download CV ( فارسی ) </span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
               </div>

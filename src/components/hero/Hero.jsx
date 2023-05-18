@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState ,  useEffect} from "react";
 import Modal from "react-modal";
 import heroImg from "../../assets/img/hero/erfan1.jpg";
 import heroImgMobile from "../../assets/img/hero/erfan2.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
+import Logo from "../Logo/Logo";
 
 const heroContent = {
   heroImage: heroImg,
@@ -23,9 +24,18 @@ const Hero = () => {
     setIsOpen(!isOpen);
   }
 
+  const [isDark, setisDark] = useState(true);
+
+  useEffect(() => {
+    let theme = document.querySelector("body").classList.value
+    console.log(theme);
+  }, []);
+  
+
   return (
     <>
       <div className="row home-details-container align-items-center">
+        
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
@@ -39,6 +49,8 @@ const Hero = () => {
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
+                  
+            <Logo />
             <h1 className="text-uppercase poppins-font">
               I'm {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>

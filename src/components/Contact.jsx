@@ -1,10 +1,13 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
+
+  const [Massage, setMassage] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -93,6 +96,7 @@ const Contact = () => {
               <span className="button-text">Send Message</span>
               <span className="button-icon fa fa-send"></span>
             </button>
+
           </div>
           {/* End .col */}
         </div>
