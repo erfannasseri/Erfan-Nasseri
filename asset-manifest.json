@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erfan-nasseri/static/css/main.0b29c4fe.css",
-    "main.js": "/erfan-nasseri/static/js/main.b42c05c2.js",
+    "main.js": "/erfan-nasseri/static/js/main.31b2fd2b.js",
     "static/js/27.0e68d143.chunk.js": "/erfan-nasseri/static/js/27.0e68d143.chunk.js",
     "static/media/erfan1.jpg": "/erfan-nasseri/static/media/erfan1.28a6e54328fa622578b9.jpg",
     "static/media/erfan2.jpg": "/erfan-nasseri/static/media/erfan2.85e5e0ffa02dd93fddb4.jpg",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.0b29c4fe.css",
-    "static/js/main.b42c05c2.js"
+    "static/js/main.31b2fd2b.js"
   ]
 }
