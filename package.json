@@ -1,7 +1,7 @@
 {
   "homepage": "https://erfannasseri.ir",
   "name": "Erfan Nasseri",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "@capacitor/app": "5.0.6",
