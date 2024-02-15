@@ -12,7 +12,7 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "erfan nasseri",
-  heroDesignation: "developer & graphic designer & founder of ",
+  heroDesignation: "founder of ",
   heroDescriptions: `I'm a Web developer with JavaScript and React js library and familiar with Next js framework and also proficient in WordPress.
   I'm the founder of Feel Company.
   Feel Company is a digital marketing agency that helps the development and progress of companies and brands.`,
