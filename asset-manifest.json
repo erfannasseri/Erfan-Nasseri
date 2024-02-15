@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erfan-nasseri/static/css/main.9f5f0faa.css",
-    "main.js": "/erfan-nasseri/static/js/main.1282a096.js",
+    "main.js": "/erfan-nasseri/static/js/main.f05e0a7f.js",
     "static/js/27.70d9e334.chunk.js": "/erfan-nasseri/static/js/27.70d9e334.chunk.js",
     "static/media/video.mp4": "/erfan-nasseri/static/media/video.d225edd6d7d4d4a8f5b7.mp4",
     "static/media/ErfanNasseri(EN).pdf": "/erfan-nasseri/static/media/ErfanNasseri(EN).9816c17be5cda1a6486f.pdf",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.9f5f0faa.css",
-    "static/js/main.1282a096.js"
+    "static/js/main.f05e0a7f.js"
   ]
 }
