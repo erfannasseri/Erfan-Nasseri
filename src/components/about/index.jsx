@@ -45,7 +45,7 @@ const index = () => {
                 </a>
 
               </div>
-              <div className="col-12 mt-1" >
+              <div className="col-12" style={{marginTop:'1.5rem'}} >
                 <a className="button" href={cv2} download>
                   <span className="button-text">Download CV ( فارسی ) </span>
                   <span className="button-icon fa fa-download"></span>

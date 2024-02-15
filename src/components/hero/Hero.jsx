@@ -1,7 +1,7 @@
 import React, { useState ,  useEffect} from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/erfan1.jpg";
-import heroImgMobile from "../../assets/img/hero/erfan2.jpg";
+import heroImg from "../../assets/img/erfanNasseri.jpg";
+import heroImgMobile from "../../assets/img/erfanNasseriM.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import Logo from "../Logo/Logo";
@@ -10,11 +10,12 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "erfan nasseri",
-  heroDesignation: "web developer & graphic designer",
-  heroDescriptions: `I'm a Iranian based graphic designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDesignation: "developer & graphic designer & founder of ",
+  heroDescriptions: `I'm a Web developer with JavaScript and React js library and familiar with Next js framework and also proficient in WordPress.
+  Familiar with Python programming language and Machine Learning libraries.
+  Photoshop teacher and graphic designer and logo designer and motion graphic artist.
+  I'm the founder of Feel Company.
+  Feel Company is a digital marketing agency that helps the development and progress of companies and brands.`,
   heroBtn: "more about me",
 };
 
@@ -42,22 +43,28 @@ const Hero = () => {
             backgroundImage: `url(${heroContent.heroImage})`,
           }}
         ></div>
-        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
+        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start" style={{display:"flex", justifyContent:"center"}}>
           <div>
             <img
               src={heroContent.heroMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
-                  
             <Logo />
-            <h1 className="text-uppercase poppins-font">
-              I'm {heroContent.heroTitleName}.
+                  
+            <h1 className="text-uppercase poppins-font" style={{fontSize:"35px", marginTop:"0px"}}>
+              
+              <span>I'm {heroContent.heroTitleName}.</span>
               <span>{heroContent.heroDesignation}</span>
+              Feel Company
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            <button className="button" onClick={toggleModalOne}>
+{/*            <button className="button" onClick={toggleModalOne} style={{margin:"2rem"}}>
               <span className="button-text">{heroContent.heroBtn}</span>
+              <span className="button-icon fa fa-arrow-right"></span>
+        </button>*/}
+            <button className="button">
+              <a href="www.feelco.ir" ><span className="button-text"> www.Feelco.ir </span></a>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
           </div>

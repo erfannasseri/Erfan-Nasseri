@@ -1,7 +1,7 @@
 {
   "homepage": "http://www.erfannasseri.ir",
   
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@capacitor/app": "5.0.6",
