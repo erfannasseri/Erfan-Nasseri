@@ -5,6 +5,8 @@ import heroImgMobile from "../../assets/img/erfanNasseriM.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import Logo from "../Logo/Logo";
+import { Link } from "react-router-dom";
+import "./Hero.css"
 
 const heroContent = {
   heroImage: heroImg,
@@ -12,8 +14,6 @@ const heroContent = {
   heroTitleName: "erfan nasseri",
   heroDesignation: "developer & graphic designer & founder of ",
   heroDescriptions: `I'm a Web developer with JavaScript and React js library and familiar with Next js framework and also proficient in WordPress.
-  Familiar with Python programming language and Machine Learning libraries.
-  Photoshop teacher and graphic designer and logo designer and motion graphic artist.
   I'm the founder of Feel Company.
   Feel Company is a digital marketing agency that helps the development and progress of companies and brands.`,
   heroBtn: "more about me",
@@ -35,7 +35,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="row home-details-container align-items-center">
+      <div className="row home-details-container align-items-center pd-10">
         
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
@@ -63,10 +63,12 @@ const Hero = () => {
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
         </button>*/}
-            <button className="button">
-              <a href="www.feelco.ir" ><span className="button-text"> www.Feelco.ir </span></a>
+            <Link to={"https://www.feelco.ir"} target="_blank" >
+            <button className="button mb-10">
+              <span className="button-text"> www.Feelco.ir </span>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,0 +1,27 @@
+.button2 {
+    background-color: #00000000;
+    color: #fff;
+    transition: all 2s ease-in-out;
+  }
+  
+  .button2:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .button2-fade {
+    animation: fade 2s infinite linear;
+  }
+  
