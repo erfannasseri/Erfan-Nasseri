@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.3370afbc.css",
-    "main.js": "/static/js/main.1d416962.js",
-    "static/js/27.0e68d143.chunk.js": "/static/js/27.0e68d143.chunk.js",
-    "static/media/erfan1.jpg": "/static/media/erfan1.28a6e54328fa622578b9.jpg",
-    "static/media/erfan2.jpg": "/static/media/erfan2.85e5e0ffa02dd93fddb4.jpg",
+    "main.css": "/static/css/main.2e956f19.css",
+    "main.js": "/static/js/main.15995aa5.js",
+    "static/js/27.3097e970.chunk.js": "/static/js/27.3097e970.chunk.js",
     "static/media/video.mp4": "/static/media/video.d225edd6d7d4d4a8f5b7.mp4",
     "static/media/ErfanNasseri(EN).pdf": "/static/media/ErfanNasseri(EN).9816c17be5cda1a6486f.pdf",
+    "static/media/erfanNasseriM.jpg": "/static/media/erfanNasseriM.7e3a5934d7e876ca071a.jpg",
+    "static/media/erfanNasseri.jpg": "/static/media/erfanNasseri.1c85c5fc63fc8bdc07ce.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/erfan3.jpg": "/static/media/erfan3.ae86537c84e48271e468.jpg",
     "static/media/iwi.png": "/static/media/iwi.0462d3b8edcb99b35c25.png",
@@ -22,7 +22,8 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/rtl.jpg": "/static/media/rtl.fc623d3befe9a7acb1ac.jpg",
     "static/media/dark.jpg": "/static/media/dark.c1cda9e0d5088e62fa77.jpg",
-    "static/media/Logo.svg": "/static/media/Logo.0bd3fa83e40259a81c6fc87764715ee6.svg",
+    "static/media/erfan_nasserinoshadowP.png": "/static/media/erfan_nasserinoshadowP.f6726bd49652194780c8.png",
+    "static/media/Logo.svg": "/static/media/Logo.1b859de298eddc199d8f55ef41172005.svg",
     "static/media/LogoLight.svg": "/static/media/LogoLight.510588491b1979fa64eca26f977aea47.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -33,7 +34,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.3370afbc.css",
-    "static/js/main.1d416962.js"
+    "static/css/main.2e956f19.css",
+    "static/js/main.15995aa5.js"
   ]
 }
