@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d5f59fea.css",
-    "main.js": "/static/js/main.abedc577.js",
+    "main.js": "/static/js/main.d1a00448.js",
     "static/js/27.3097e970.chunk.js": "/static/js/27.3097e970.chunk.js",
     "static/media/MR.Yekta.mp4": "/static/media/MR.Yekta.3697ca7ccd55848d245f.mp4",
     "static/media/DrAliNasseri.mp4": "/static/media/DrAliNasseri.9dd8ece1c4042e8c3933.mp4",
@@ -78,6 +78,6 @@
   },
   "entrypoints": [
     "static/css/main.d5f59fea.css",
-    "static/js/main.abedc577.js"
+    "static/js/main.d1a00448.js"
   ]
 }
