@@ -1,6 +1,6 @@
 {
-  "homepage": "https://erfannasseri.github.io/erfan-nasseri/",
-  "version": "1.0.3",
+  "homepage": "https://erfannasseri.ir",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "@capacitor/app": "5.0.6",
